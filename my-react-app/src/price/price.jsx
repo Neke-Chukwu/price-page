@@ -36,8 +36,9 @@ const Price = () => {
                   </p>
                   <ul className="text-gray-300 mt-4 space-y-2">
                     {plan.features.map((feature, i) => (
-                      <li key={i} className="flex items-center justify-center space-x-2">
-                        {/* Add checkmark SVG here */}
+                      <li key={i} className="flex items-center justify-center space-x-2"> 
+
+                        {/* Emma add the checkmark SVG here, eh go replace the green ticks, used it in place of the SVG*/}
                         <span className="text-orange-400">✔</span>
                         <span>{feature}</span>
                       </li>
