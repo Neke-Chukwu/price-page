@@ -1,5 +1,9 @@
 import React from 'react'
 
+//import the svgs here
+
+//import { svgggggggggss } from '../price/priceSVGs/svgggggg'
+
 const Price = () => {
 
         return (
@@ -39,6 +43,7 @@ const Price = () => {
                       <li key={i} className="flex items-center justify-center space-x-2"> 
 
                         {/* Emma add the checkmark SVG here, eh go replace the green ticks, used it in place of the SVG*/}
+                        {/* Example:   {plan.icon}       */}
                         <span className="text-orange-400">✔</span>
                         <span>{feature}</span>
                       </li>
@@ -57,7 +62,7 @@ const Price = () => {
               ))}
             </div>
       
-            {/* Special Offer */}
+            {/* Center ad: "Special Offer" */}
             <div className="mt-10 p-6 bg-white text-black rounded-xl shadow-lg text-center max-w-4xl mx-auto">
               <p className="text-lg font-semibold text-gray-600">Limited Time Offer</p>
               <p className="mt-2 text-xl font-bold">Special Launch Discount!</p>
@@ -73,14 +78,14 @@ const Price = () => {
               </p>
             </div>
       
-            {/* Additional Packages */}
+            {/* lower Packages */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
               {additionalPackages.map((pkg, index) => (
                 <div
                   key={index}
                   className="p-6 bg-gradient-to-b from-gray-800 to-gray-700 rounded-xl text-center shadow-lg border border-gray-700 transition-all duration-300 hover:scale-105 hover:shadow-xl"
                 >
-                  {/* Add SVG icon here for each package */}
+                  {/* Add SVGs for the icon here for each package */}
                   <h3 className="text-xl font-semibold">{pkg.title}</h3>
                   {pkg.price && (
                     <p className="text-3xl font-bold mt-2">
@@ -113,6 +118,12 @@ const Price = () => {
             "Quick 24-hour delivery",
             "2 revision rounds",
           ],
+
+          //link the SVGs for each section here, you go add am to others too
+
+          // icon: checker.svg
+          //    
+          
           mostPopular: false,
         },
         {
