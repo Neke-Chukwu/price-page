@@ -19,7 +19,7 @@ const Price = () => {
                   className={`p-6 rounded-xl shadow-lg text-center transition-all duration-300 ${
                     plan.mostPopular
                       ? "bg-gradient-to-b from-purple-600 to-purple-800 border border-blue-500"
-                      : "bg-gradient-to-b from-orange-500 to-gray-700 border border-gray-700"
+                      : "bg-gradient-to-b from-orange-400 to-orange-500 border border-gray-700"
                   } hover:scale-105 hover:shadow-xl relative`}
                 >
                   {plan.mostPopular && (
